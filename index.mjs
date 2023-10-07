@@ -1,4 +1,0 @@
-// Copyright (c) 2023 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import s from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-shape2strides@v0.1.0-esm/index.mjs";import e from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-strides2offset@v0.1.0-esm/index.mjs";import t from"https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-numel@v0.1.0-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-empty@v0.1.0-esm/index.mjs";import d from"https://cdn.jsdelivr.net/gh/stdlib-js/buffer-alloc-unsafe@v0.1.0-esm/index.mjs";function n(n){var i,m,a,o,j,l;return l=n.dtype,o=n.shape,a=n.order,o.length>0?(i=t(o),j=s(o,a)):(i=1,j=[0]),m="binary"===l?d(i):r(i,l),new n.constructor(l,m,o,j,e(o,j),a)}export{n as default};
-//# sourceMappingURL=index.mjs.map
