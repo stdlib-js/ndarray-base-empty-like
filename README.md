@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import emptyLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty-like@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/ndarray-base-empty-like/tags). For example,
+
+```javascript
 import emptyLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty-like@v0.3.0-esm/index.mjs';
 ```
 
@@ -106,7 +111,7 @@ var sh = y.shape;
 
 import dtypes from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-dtypes@esm/index.mjs';
 import empty from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty@esm/index.mjs';
-import emptyLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty-like@v0.3.0-esm/index.mjs';
+import emptyLike from 'https://cdn.jsdelivr.net/gh/stdlib-js/ndarray-base-empty-like@esm/index.mjs';
 
 // Get a list of data types:
 var dt = dtypes();
