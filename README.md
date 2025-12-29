@@ -78,6 +78,7 @@ var emptyLike = require( '@stdlib/ndarray-base-empty-like' );
 Creates an uninitialized ndarray having the same shape and [data type][@stdlib/ndarray/dtypes] as a provided ndarray.
 
 ```javascript
+var getShape = require( '@stdlib/ndarray-shape' );
 var zeros = require( '@stdlib/ndarray-base-zeros' );
 
 var x = zeros( 'float64', [ 2, 2 ], 'row-major' );
@@ -86,7 +87,7 @@ var x = zeros( 'float64', [ 2, 2 ], 'row-major' );
 var y = emptyLike( x );
 // returns <ndarray>
 
-var sh = y.shape;
+var sh = getShape( y );
 // returns [ 2, 2 ]
 ```
 
@@ -119,10 +120,11 @@ var sh = y.shape;
 ```javascript
 var dtypes = require( '@stdlib/ndarray-dtypes' );
 var empty = require( '@stdlib/ndarray-base-empty' );
+var ndarray2array = require( '@stdlib/ndarray-to-array' );
 var emptyLike = require( '@stdlib/ndarray-base-empty-like' );
 
 // Get a list of data types:
-var dt = dtypes();
+var dt = dtypes( 'integer_and_generic' );
 
 // Generate uninitialized arrays...
 var x;
@@ -131,7 +133,7 @@ var i;
 for ( i = 0; i < dt.length; i++ ) {
     x = empty( dt[ i ], [ 2, 2 ], 'row-major' );
     y = emptyLike( x );
-    console.log( y.data );
+    console.log( ndarray2array( y ) );
 }
 ```
 
@@ -207,8 +209,8 @@ Copyright &copy; 2016-2025. The Stdlib [Authors][stdlib-authors].
 
 -->
 
-[chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
-[chat-url]: https://app.gitter.im/#/room/#stdlib-js_stdlib:gitter.im
+[chat-image]: https://img.shields.io/badge/zulip-join_chat-brightgreen.svg
+[chat-url]: https://stdlib.zulipchat.com
 
 [stdlib]: https://github.com/stdlib-js/stdlib
 
