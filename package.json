@@ -45,7 +45,6 @@
     "@stdlib/ndarray-base-order": "^0.2.3",
     "@stdlib/ndarray-base-shape": "^0.2.3",
     "@stdlib/ndarray-base-shape2strides": "^0.2.3",
-    "@stdlib/ndarray-base-strides2offset": "^0.2.3",
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
