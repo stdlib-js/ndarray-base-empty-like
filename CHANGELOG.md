@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-05-14)
+## Unreleased (2026-05-18)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`9451399`](https://github.com/stdlib-js/stdlib/commit/9451399044acb8234933b4a35723347e45def52a) - **bench:** refactor to use string interpolation in `ndarray/base` [(#11432)](https://github.com/stdlib-js/stdlib/pull/11432) _(by Karan Anand)_
 -   [`3ca7c21`](https://github.com/stdlib-js/stdlib/commit/3ca7c2179081a36fa279dbb1e12f8e81d811e997) - **docs:** propagate recent `ndarray/base` comment and note fixes to sibling packages [(#11762)](https://github.com/stdlib-js/stdlib/pull/11762) _(by Philipp Burckhardt)_
 -   [`3bf34ec`](https://github.com/stdlib-js/stdlib/commit/3bf34ec6df7f894f7cbee125eb3f655ebb2d6a4e) - **chore:** fix typos, grammar, and minor issues across multiple packages [(#11167)](https://github.com/stdlib-js/stdlib/pull/11167) _(by Philipp Burckhardt)_
 -   [`bbd8f0e`](https://github.com/stdlib-js/stdlib/commit/bbd8f0eec8d6d52201d7706a349fdb9cac737d9c) - **refactor:** avoid unnecessary offset calculation _(by Athan Reines)_
@@ -26,9 +27,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
